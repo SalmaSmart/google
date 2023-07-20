@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    margin-top: 10px;
+    margin-right: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header p, header img{
+    margin: 0 10px;
+}
+
+header img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    width: 550px;
+    align-items: center;
+}
+
+input[type="search"]{
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+input[type="button"]{
+    padding: 10px;
+    background: #f8f9fa;
+    margin: 15px 10px;
+    border: #f8f9fa;
+}
+
+input[type="button"]:hover, input[type="search"]:hover{
+    box-shadow: 5px 10px 15px 5px #dadce0;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:15px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background: #f2f2f2;
+}
+
+section{
+    height: 50px;
+    margin: 5px;
+    
+}
+
+section a, section p{
+    color: #70757a;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+section p{
+    margin-left: 25px;
+    padding-top: 15px;
+}
+
+.footer-link section{
+    width: 50%;
+    border-top: 1px solid;
+    align-items: center;
+}
+
+.lang a{
+    text-decoration: none;
+}
+
+.lang a:hover, .footer-links a:hover{
+    text-decoration: underline;
+}
+
+.input-con{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: -180px;
+    margin-bottom: -180px;
+}
+
+.image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: -50px;
+}
+
+.images{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: -70px;
+}
